@@ -1504,11 +1504,11 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
+	height: 16rem;
+	width: 16rem;
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
-	float: left;
+	margin-bottom: 30px;
 }
 .intro-info .lead {
 	text-align: left;
@@ -1532,11 +1532,11 @@ header .logo a {
 	list-style: none;
 	margin-left: 0;
 }
-.about-content .info-list li {
+.info-list p {
 	padding: 0 0 1.5rem 0;
 	margin-bottom: .6rem;
 }
-.about-content .info-list li strong {
+.info-list p strong {
 	font-family: "poppins-bold", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
@@ -1544,7 +1544,7 @@ header .logo a {
 	font-size: 1.5rem;
 	line-height: 3rem;
 }
-.about-content .info-list li span {
+.info-list p span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
 	color: #888888;
@@ -1687,6 +1687,7 @@ header .logo a {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
 	color: #888888;
+	margin-bottom: 1rem;
 }
 #resume .timeline-content {
 	margin-left: 35%;
@@ -1695,6 +1696,10 @@ header .logo a {
 #resume .timeline-content h4 {
 	position: relative;
 	padding-bottom: 1.8rem;
+}
+#resume .timeline-content p {
+	position: relative;
+	margin-bottom: 2rem;
 }
 #resume .timeline-content h4::after {
 	content: "";
